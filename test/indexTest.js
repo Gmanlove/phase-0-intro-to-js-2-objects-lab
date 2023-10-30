@@ -1,5 +1,11 @@
 require ( './helpers.js' );
 
+let employee = {
+  name: 'John Doe',
+  streetAddress: '123 Main St',
+};
+
+
 describe('employees', function() {
   describe('updateEmployeeWithKeyAndValue(employee, key, value)', function () {
     beforeEach(function () {
